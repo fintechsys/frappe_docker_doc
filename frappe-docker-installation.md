@@ -36,7 +36,7 @@ nano sites/common_site_config.json
 ```
 > and change `"db_host": "mariad"` to `"db_host": "mariadb"`
 
-- and others
+- set redis hosts
 ```sh
 bench set-redis-cache-host redis-cache:6379
 bench set-redis-queue-host redis-queue:6379
